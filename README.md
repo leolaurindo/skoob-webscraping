@@ -9,7 +9,7 @@ This script logs into [Skoob](https://www.skoob.com.br/), a Brazilian "social ne
 
 ## About this script
 
-This script came to me when a friend of mine said she was having some trouble transferring her book's data to a her notion notebook. As I was studying web scraping for the new job I've landed, I accepted the comment as a challenge. In the end, I made this script.
+This script came to me when a friend of mine said she was having some trouble transferring her book's data to her notion notebook. As I was studying web scraping for the new job I've landed, I accepted the comment as a challenge. In the end, I made this script.
 
 It is already one or two months old, and I think I can modularize the tasks into functions. Because I am lazy, I tried to do it with chatGPT, but it only made things worse. I will eventually do it, but for now I'll leave this as it is. You can, of course, make the changes you want for yourself.
 
