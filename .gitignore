@@ -1,0 +1,11 @@
+.env
+experiments/*
+refined/refined_carol.csv
+refined/refined_carol.xlsx
+config.json
+output/output.csv
+.vscode/*
+__pycache__/*
+cleansing.ipynb
+FAZER.md
+my_books2222.csv

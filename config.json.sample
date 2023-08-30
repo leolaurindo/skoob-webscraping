@@ -1,0 +1,7 @@
+{
+  "email": "YOUR_LOGIN_HERE",
+  "password": "YOUR_PASSWORD_HERE",
+  "output_path_excel": "output/output.xlsx",
+  "output_path_csv": "output/output.csv",
+  "driver_path": "webdriver/chromedriver.exe"
+}
