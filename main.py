@@ -107,9 +107,13 @@ while page_number <= qty_pages:
         title = d.find_element(By.CLASS_NAME, 'ng-binding').text
         author_publisher = d.find_element(By.TAG_NAME, 'p').text
         author_publisher = author_publisher.split('\n')
-        author = author_publisher[0]
-        publisher = author_publisher[1]
-        b_details = {'title':title,'author': author,'publisher': publisher, 'info': None}
+
+        author = author_publisher[0] if len(author_publisher) > 0 else None
+        publisher = author_publisher[1] if len(author_publisher) > 1 else None
+        image_element = book.find_element(By.TAG_NAME, "img")
+        image_url = image_element.get_attribute("src")
+
+        b_details = {'title':title,'author': author,'publisher': publisher, 'info': None, 'image': image_url}
 
         # Instead of clicking the book, get its link
         relative_link = book.find_element(By.CSS_SELECTOR, 'div.livro-capa > a').get_attribute('href')
